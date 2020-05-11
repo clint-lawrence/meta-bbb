@@ -10,14 +10,14 @@ BBFILES ?= ""
 
 
 BBLAYERS ?= " \
-  /mnt/sdd1/yocto/poky-krogoth/meta \
-  /mnt/sdd1/yocto/poky-krogoth/meta-poky \
-  /mnt/sdd1/yocto/poky-krogoth/meta-openembedded/meta-oe \
-  /mnt/sdd1/yocto/poky-krogoth/meta-openembedded/meta-networking \
-  /mnt/sdd1/yocto/poky-krogoth/meta-openembedded/meta-python \
-  /mnt/sdd1/yocto/poky-krogoth/meta-qt4 \
-  /mnt/sdd1/yocto/poky-krogoth/meta-qt5 \
-  /mnt/sdd1/yocto/poky-krogoth/meta-mingw \
-  /mnt/sdd1/yocto/bbb/meta-bbb \
+  ${HOME}/poky-krogoth/meta \
+  ${HOME}/poky-krogoth/meta-poky \
+  ${HOME}/poky-krogoth/meta-openembedded/meta-oe \
+  ${HOME}/poky-krogoth/meta-openembedded/meta-networking \
+  ${HOME}/poky-krogoth/meta-openembedded/meta-python \
+  ${HOME}/poky-krogoth/meta-qt4 \
+  ${HOME}/poky-krogoth/meta-qt5 \
+  ${HOME}/poky-krogoth/meta-mingw \
+  ${HOME}/bbb/meta-bbb \
   "
 
