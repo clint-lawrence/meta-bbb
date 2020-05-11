@@ -15,7 +15,6 @@ BBLAYERS ?= " \
   ${HOME}/poky-krogoth/meta-openembedded/meta-oe \
   ${HOME}/poky-krogoth/meta-openembedded/meta-networking \
   ${HOME}/poky-krogoth/meta-openembedded/meta-python \
-#  ${HOME}/poky-krogoth/meta-qt4 \
   ${HOME}/poky-krogoth/meta-qt5 \
   ${HOME}/poky-krogoth/meta-mingw \
   ${HOME}/bbb/meta-bbb \
