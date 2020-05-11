@@ -18,5 +18,5 @@ BBLAYERS ?= " \
   ${HOME}/poky-krogoth/meta-qt5 \
   ${HOME}/bbb/meta-bbb \
   "
-#${HOME}/poky-krogoth/meta-mingw \
+#${HOME}/poky-krogoth/meta-mingw
   
